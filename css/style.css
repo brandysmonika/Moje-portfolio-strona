@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +9,14 @@ body {
 
 span {
     color: lawngreen;
-    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
 }
 
 #main-nav {
@@ -19,7 +26,7 @@ span {
     z-index: 10;
 }
 
-#main-nav ul  {
+#main-nav ul {
     text-align: right;
 }
 
@@ -53,6 +60,43 @@ span {
     left: 0;
     right: 0;
     text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-header .header-caption h1 {
+    font-size: 4em;
+    font-weight: 300;
+}
+
+#main-header .header-caption h2 {
+    font-size: 2.8em;
+    font-weight: 300;
+}
+
+#about {
+    background-color: #f9fcfe;
+}
+
+#about figure {
+    text-align: center;
+    margin: 0;
+}
+
+#about figure .about-img {
+    max-height: 350px;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+section {
+    overflow: auto;
+    padding: 40px 60px;
 }
 
 

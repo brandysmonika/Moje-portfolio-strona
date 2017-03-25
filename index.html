@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Moje portfolio</title>
+
+    <!--Style CSS-->
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:200,300,400" rel="stylesheet">
+    <!-- Cecha dla rensposywności-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Awesome fonts -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Style rensposywne -->
+    <link rel="stylesheet" href="css/rensposive.css">
+
 </head>
 
 <body>
 
     <!-- Menu nawigacyjne -->
     <nav id="main-nav">
+        <label for="drop">Menu</label>
+        <!-- Dodatkowa reguła do rensposive - menu -->
+        <input type="checkbox" id="drop">
+        <!-- Dodatkowa reguła do rensposive - menu -->
         <ul>
             <li class="menu-item"><a href="#">O mnie</a></li>
             <li class="menu-item"><a href="#">Umiejętności</a></li>
@@ -21,13 +32,13 @@
             <li class="menu-item"><a href="#">Kontakt</a></li>
         </ul>
     </nav>
-
+    <!-- Nagłówek nagłówka-->
     <header id="main-header">
         <div class="header-caption">
             <h2>Monika <span>Brandys</span></h2>
             <h2>Front-End Developer</h2></div>
     </header>
-
+    <!-- Sekcja o mnie -->
     <section id="about">
         <h2>O <span>mnie</span></h2>
         <figure class="col-1-2"><img src="img/jan-nowak.jpg" class="about-img" alt="Zdjecie Jan Nowak"></figure>
@@ -39,7 +50,7 @@
     <section id="skill">
         <h2>Moje <span>umiejętności</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, magnam cupiditate reiciendis dicta perferendis eos! Quam praesentium dicta accusantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
+        <!--Ikony html, css, js, jquery-->
         <div class="skills-icons">
             <figure>
                 <img src="icons/html5.png" alt="Icon html">
@@ -62,7 +73,7 @@
             </figure>
         </div>
     </section>
-
+    <!-- Sekcja portfolio -->
     <section id="portfolio">
         <h2>Moje <span>portfolio</span></h2>
         <div class="portfolio-items">
@@ -108,84 +119,41 @@
         </div>
     </section>
 
-<!--
-   <address id="contact">
-    <h2>Jan <span>Nowak</span></h2>
-        <div class="address-contact">
-            <p>ul. Mostowa 6/13 <br />
-            31-061 Kraków <br /><br />
-            tel. 606 74 57 59 <br />
-            email: <span>example@example.pl</span></p></div>
-    
-    
-    <form action="https://formspree.io/brandys.monika@gmail.com" method="POST">
-    <input type="text" id="name" name="Imię i Nazwisko" value="Imię i Nazwisko"/>
-    <br />
-    <br />
-    <input type="text" id="email" name="Email" value="Email"/>
-    <br />
-    <br />
-
-    
-    <textarea type="text" name="Wiadomość" id="message" cols="30" rows="10"
-    >Treść wiadomości</textarea>
-    <br />
-    <br />
-    <br />
-    <div class="click"><input type="submit" value="Wyślij" /></div>
-    </form>
-   
-<div class="social-media">
-    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-</div>
-    
-</address>
-
- 
- <footer>
-    <p>Copyright Monika Brandys - Kosińska</p>  
-  </footer>
-   
-   
-   -->
-    
-<section id="contact">
-    <div class="col-1-2">
-        <h2>Monika <span>Brandys</span></h2>
-        <address>
+    <!-- Sekcja kontakt-->
+    <section id="contact">
+        <div class="col-1-2">
+            <h2>Monika <span>Brandys</span></h2>
+            <address>
             ul. Mostowa 6/13 <br>
             31-061 Kraków <br><br>
             tel. 606 987 452 <br>
             e-mail: <a href="brandys.monika@gmail.com">brandys.monika@gmial.com</a>
         </address>
+            <!-- Div z ikonami social media -->
+            <div class="social-icons">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
 
-        <div class="social-icons">
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-google-plus"></i></a>
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
         </div>
+        <div class="col-1-2">
+            <!-- Formularz-->
+            <form action="">
+                <input type="text" placeholder="Imię i Nazwisko">
+                <input type="email" placeholder="E-mail">
+                <textarea placeholder="Wiadomość"></textarea>
+                <input type="submit" value="Wyślij">
 
-    </div>
-    <div class="col-1-2">
+            </form>
 
-        <form action="">
-            <input type="text" placeholder="Imię i Nazwisko">
-            <input type="email" placeholder="E-mail">
-            <textarea placeholder="Wiadomość"></textarea>
-            <input type="submit" value="Wyślij">
-
-        </form>
-
-    </div>
-</section>
-  
-
-
-
+        </div>
+    </section>
+    <!-- Stopka -->
+    <footer>
+        <p>Copyright &copy; Monika Brandys</p>
+    </footer>
 
 </body>
 

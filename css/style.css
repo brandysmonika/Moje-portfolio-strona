@@ -29,6 +29,11 @@ p {
     z-index: 10;
 }
 
+#main-nav label,
+#main-nav #drop {
+    display: none;
+}
+
 #main-nav ul {
     text-align: right;
 }
@@ -122,25 +127,6 @@ section {
 }
 
 
-
-/*
-#portfolio .col-1-3 img {
-    width: 100%;
-    
-}
-
-.col-1-3 figure {
-    display: inline-block;
-    width: 33%;
-   margin: 0;
-}
-
-.col-1-3 figure img:hover {
-    color: darkblue;
-    opacity: 0.5;
-    
-}
-*/
 
 #portfolio .portfolio-items {
     font-size: 0;
@@ -266,6 +252,7 @@ background-image: url(../img/portfolio4.jpg);
     border: 0px solid #fff;
     padding: 10px;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 #contact form input:not([type='submit']):focus, 
@@ -289,121 +276,15 @@ background-image: url(../img/portfolio4.jpg);
     color: #1ac056;
 }
 
-/*
-#contact {
-    font-style: normal;
-    background-color: #213b50;
-    color: #fff;
-    width: 100%;
-    height: 500px;
-   
-}
-
-#contact .address-contact {
-    width: 50%;
-    float: left;
-}
-
-#contact h2 {
-    text-align: left;
-    font-size: 2.7em;
-    margin-left: 65px;
-    padding: 10px;
-    transform: translateY(50%);
-}
-
-#contact .address-contact p {
-    transform: translateY(-20%);
-    transform: translateX(10%);
-    padding: 10px;
-}
-
-#contact .address-contact p span {
-    color: lightgreen;
-    text-decoration: underline;
-}
-
-
-#contact form {
-    margin: 0;
-    width: 50%;
-    float: left;
-}
-
-#contact form input, textarea {
-    background-color: #0f4c7e;
-    border: 1px solid #0f4c7e;
-    width: 50%;
-    height: 40px;
-    color: #092439;
-    font-family: inherit;
-    font-size: 0.8em;
-    padding: 10px;
-}
-#contact .click {
-    text-align: right;
-    transform: translateX(-50%);
-    
-    
-}
-#contact form input[type="submit"] {
-    background-color: greenyellow;
-    width: 100px; 
-    border: greenyellow solid 1px;
-    
-}
-
-#contact .social-media {
-  
-    transform: translateY(-10%);
-    transform: translateX(5%);
-      
-}
-
-.social-media a {
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-     margin-right: 15px;
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-        
-}
-
-
-.social-media a .fa {
-    font-size: 1.2em;
-}
-
-.social-media a:hover {
-    background-color: #fff;
-    color: #213b50;
-    transition: all .4s;
-}
-
-.social-media a:nth-child(1),
-.social-media a:nth-child(2),
-.social-media a:nth-child(3),
-.social-media a:nth-child(4) {
-    border: white solid 2px;
-   
-    
-}
-
 footer {
-background-color: black;   
-position: absolute;
-width: 100%;
-height: 40px;
-color: #fff;
-font-size: 14px;
-text-align: center;
+  background-color: #142634;
+    padding: 0 60px;
+    color: #fff;
 }
 
-*/
-
-
+footer p {
+    margin: 0;
+}
 
 
 

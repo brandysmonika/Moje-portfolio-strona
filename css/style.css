@@ -179,6 +179,15 @@ section {
     top: 50%;
     transform: translateY(-50%);
     margin: auto;
+    padding: 10px;
+ }
+
+#portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    
 }
 
 #portfolio-item-1 {
@@ -193,6 +202,206 @@ background-image: url(../img/portfolio2.jpg);
 background-image: url(../img/portfolio4.jpg);    
 }
 
+.portfolio-content-inner a {
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s;
+    
+}
+
+.portfolio-content-inner a:hover {
+    color: #00d908;
+ 
+}
+
+#contact {
+    background-color: #213b50;
+    color: #fff;
+}
+
+#contact h2 {
+   text-align: left;
+}
+
+#contact address {
+    font-style: normal;
+}
+
+#contact address a {
+    color: #1ac056;
+}
+
+#contact address a:hover {
+    color: #fff;
+    transition: all .3s;
+}
+
+#contact .social-icons {
+    margin-top: 30px;
+}
+
+#contact .social-icons a {
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.4em;        
+}
+#contact .social-icons a:hover {
+    color: #213b50;
+    background-color: #fff;
+    transition: all .3s;
+}
+#contact form {
+    padding-top: 60px;
+}
+#contact form input:not([type='submit']), 
+#contact form textarea {
+    width: 100%;
+    background-color: #2b4a64;
+    border: 0px solid #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#contact form input:not([type='submit']):focus, 
+#contact form textarea:focus {
+    background-color: #4c6f8d;
+    
+}
+#contact form input[type='submit'] {
+    background-color: #1ac056;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0px solid #fff;
+    cursor: pointer;
+    float: right;
+    transition: all .3s;
+}
+
+#contact form input[type='submit']:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+
+/*
+#contact {
+    font-style: normal;
+    background-color: #213b50;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+   
+}
+
+#contact .address-contact {
+    width: 50%;
+    float: left;
+}
+
+#contact h2 {
+    text-align: left;
+    font-size: 2.7em;
+    margin-left: 65px;
+    padding: 10px;
+    transform: translateY(50%);
+}
+
+#contact .address-contact p {
+    transform: translateY(-20%);
+    transform: translateX(10%);
+    padding: 10px;
+}
+
+#contact .address-contact p span {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+
+#contact form {
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+
+#contact form input, textarea {
+    background-color: #0f4c7e;
+    border: 1px solid #0f4c7e;
+    width: 50%;
+    height: 40px;
+    color: #092439;
+    font-family: inherit;
+    font-size: 0.8em;
+    padding: 10px;
+}
+#contact .click {
+    text-align: right;
+    transform: translateX(-50%);
+    
+    
+}
+#contact form input[type="submit"] {
+    background-color: greenyellow;
+    width: 100px; 
+    border: greenyellow solid 1px;
+    
+}
+
+#contact .social-media {
+  
+    transform: translateY(-10%);
+    transform: translateX(5%);
+      
+}
+
+.social-media a {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+     margin-right: 15px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+        
+}
+
+
+.social-media a .fa {
+    font-size: 1.2em;
+}
+
+.social-media a:hover {
+    background-color: #fff;
+    color: #213b50;
+    transition: all .4s;
+}
+
+.social-media a:nth-child(1),
+.social-media a:nth-child(2),
+.social-media a:nth-child(3),
+.social-media a:nth-child(4) {
+    border: white solid 2px;
+   
+    
+}
+
+footer {
+background-color: black;   
+position: absolute;
+width: 100%;
+height: 40px;
+color: #fff;
+font-size: 14px;
+text-align: center;
+}
+
+*/
 
 
 

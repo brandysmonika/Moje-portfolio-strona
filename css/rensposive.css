@@ -1,0 +1,22 @@
+
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    height: 100vh;
+    top: 0;
+}
+
+.header-caption {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
